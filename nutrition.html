@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<head>
+    <title>WW Sports</title>
+    <link href="css/body.css" rel="stylesheet" >
+   <link rel="icon" href="images/fav.jpg">
+    <link href="https://unpk.com/boxicons@2.1.4/css/boxicons.mini.css" rel="stylesheet">
+    <style>
+
+                * {
+                box-sizing: border-box;
+                }
+
+.slider{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: rotate 30s linear infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100%{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+.slider span{
+    position: absolute;
+    top: 10em;
+    left:0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(250px);
+    
+}
+.slider span img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    object-fit: cover;
+    transition: 2s;
+}
+.slider span:hover img{
+    transform: translateY(-50px)scale(1.2));
+}
+
+                .box {
+                float: left;
+                width: 30%;
+                height: 150px;
+                padding:50x;
+		margin:20px
+                }
+
+                .clearfix::after {
+                content: "";
+                clear: both;
+                display: table;
+                }
+                .pp {
+                background-image: url('img_forest.jpg');
+                }
+
+	p{ text-align:justify;
+		padding:15px;
+}
+                .h2{
+                    background-color:brown;
+                    color:white;
+                    text-align: center;
+                   
+                }
+                hr{
+                    padding-top: 95px;
+                    
+                }
+                .h2d{
+                    
+                    background-color:lightgrey;
+                    color:black;
+                    text-align: center;
+                }
+
+                .img {
+                   
+                    border: 1px none black;
+                    border-radius: 10px;
+                    margin:0px;
+                    padding:10px;
+                    width:50%;
+ 		.img121 {
+  float: left;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+}
+.hea{text-align:center;font-weight:700;}
+
+#more{display: none;}
+    </style>
+
+
+</head>
+<body>
+ <header class="header">
+<!--<img src="images/bg1.jpg"width="50px" height="50px">-->
+<a href="#" class="logo"></a>
+<nav class="navbar" class="active">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="jesey.html" >Attire</a>
+
+  <a href="nutrition.html" class="active" >Nutrition</a>
+      <a href="mymy.html" >Shopping</a>
+    
+      <a href="contacts.html" >Contacts</a>
+  </nav>
+
+</header>
+    <hr>
+<img src="images/protein.jpg" width="100%" height="400px"alt="food pyramid" style="padding-bottom:-100;">
+
+
+
+<center><div class="clearfix" ><p>
+<p>
+A general healthy eating pattern helps to support the needs of fit, energetic and lean player. Nutrition plans should be based around lean proteins for muscle repair and recovery, carbohydrate appropriately timed for fuel. In addition, fruit, vegetables, nuts, seeds and wholegrains provide important vitamins and minerals, along with some healthy fats such as avocado, nuts, olive oily and oily fish such as salmon.
+Soccer players should adjust their food and fluid intake to match their training load. For example, during heavy training periods, a diet rich in carbohydrate foods is important to provide adequate fuel to reduce fatigue, sustain performance and promote recovery. During lighter training periods or rest days, a less carbohydrate is needed given the lower energy demands on the body.
+</p><span id="dots">
+<p>Soccer is a professional career at an elite level, however many amateur players also have work and study commitments to manage around their soccer schedules. To manage this busy lifestyle good nutrition habits are important and make a huge difference on and off the field.
+</p>
+<h1 class="hea">Hydration needs</h1>
+<p>Fluid requirements during matches can be considerable due to the high intensity of a match (further exacerbated if hot weather). Dehydration can negatively impact soccer performance – particularly endurance, speed, skill execution and decision-making.
+
+Having fluids with all meals and snacks, carrying a water bottle throughout the day, and drinking 200-600ml of fluid just before the start of training are useful strategies to optimise hydration levels. When training, players should make use of any break opportunities to grab a drink. During intense or long sessions, sports drinks can be useful as they contain carbohydrate to help replace energy stores plus fluid and electrolytes for rehydration.
+
+Rehydrating after training is particularly important – especially if training in hot weather or with training sessions close together. The addition of electrolytes to fluids or consuming salty foods alongside fluids (e.g. vegemite on crackers) can help with rehydration goals.
+</p>
+<h2 class="hea">What to eat before games</h2>
+<p>It’s important to start matches well-fuelled. Each player is different, but most will often eat a pre-game meal around 3 to 4 hours before the start of the match. This meal should contain some carbohydrate for fuel as well as some fluids for hydration. A small amount of protein in the pre-game meal is also useful, as it can help to prevent hunger during the game.
+<p>
+<br>
+<h4 class="hea">Some suitable pre-game meal ideas can include:</h4>
+<p><ol>
+<li>Wrap or sandwich with chicken and salad</li>
+<li>Bowl of muesli with yoghurt and berries</li>
+<li>Pasta with beef mince in tomato-based sauce</li>
+<li>Pumpkin soup served with bread rolls</li>
+<li>Chicken stir-fry with rice or quinoa</li>
+<li>Many players will also have an additional small snack 1-2 hours prior to the game. This is often something light that is rich in carbohydrate but relatively low in fat and fibre so it is easy to digest.</li>
+</ol>
+</p>
+<h4 class="hea">Some suitable pre-game snack ideas include:</h4>
+
+<p><ol>
+<li>Yoghurt with fruit salad</li>
+<li>Banana and a handful of almonds</li>
+<li>Peanut butter on rice cakes</li>
+<li>Toast with vegemite and cheese</li>
+<li>If solids don’t sit well before a game, or players are very nervous, a liquid source of protein and carbohydrate such as a fruit smoothie can be a good option.</li>
+</ol><p>
+<h4 class="hea">What to eat and drink during games</h4>
+<p>Players should work closely with an Accredited Sports Dietitian to trial nutrition strategies during training and matches to find which foods work best for each player.
+
+Hot environments, combined with high-intensity exercise can lead to high sweat losses. Opportunities to drink during matches are limited to the warm-up and half time break but informal breaks in play (e.g. injury time) can also be useful. Players should start the match well hydrated by drinking adequate fluids leading up to the match. Producing regular amounts of clear urine is a useful indicator of good hydration status before exercise.
+
+Although the half-time break is brief, it is the only opportunity for consuming carbohydrate during play. Players with a high workload (e.g. midfielders) will benefit the most from consuming a carbohydrate snack during the break because these players tend to have the greatest requirements for carbohydrate and fluid during a game.
+
+Chopped fruit or muesli bars are quick, easy-to-eat options. Alternatively, specialised sports nutrition products such as energy bars, gels and sports drinks can be quick to eat.
+
+While water is the priority fluid during training and for hydration during the day, and in most matches. Sports or electrolyte drinks may be useful during a game for players identified as having high energy requirements or heavy fluid losses as they can deliver some fuel and electrolytes.
+</p>
+<br><br>
+ <h4 class="hea">Post-match recovery</h4>
+<p>Recovery meals and snacks should contain carbohydrate (fuel), some protein (for muscle repair and development) and plenty of fluids and electrolytes to replace sweat losses.
+
+A recovery meal or snack should be consumed soon after exercise period, remembering that recovery nutrition extends well beyond the initial hours post-game, particularly when the next training session or game is the next day.  Fluids (mainly water) should also be consumed, based on estimated losses.
+</p>
+<h4 class="hea">Some recovery food suggestions include:</h4>
+<ol>
+<li>Chicken, avocado and salad sandwich</li>
+<li>Dairy-based fruit smoothie</li>
+<li>Yoghurt + muesli with nuts and seeds</li>
+<li>Burritos with beef, cheese, avocado and salad<li>
+ </ol>
+
+<h4 class="hea">OTHER NUTRITION TIPS</h4>
+<p>Plan for travel Depending on the level of competition, soccer players are often required to travel locally, nationally or internationally for their sport. Thinking ahead and putting into place appropriate travel nutrition plans is essential for optimising performance when on the road. An Accredited Sports Dietitian can help with this.
+</p>
+ </span></div><button onclick="myFunction()" id="myBtn">Read Less</button>
+                     <script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read More"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+</div>
+</center> 
+ <!----------------------------------------------------------------------------------------------------------------------------------->
+ <!----------------------------------------------------------------------------------------------------------------------------------->
+  
+    <h2 class="h2d" style="margin-bottom:-120px;margin-top:10px">Diet</h2>
+    <center><div class="clearfix"style="padding-top:0px;">    
+
+    <div class="align" style="padding-top:0px;">
+        <div class="slider">
+            <span style="--i:1;"><img src="pictures/beverage.jpg" alt=""style="border-radius:10px;"></span>
+            <span style="--i:2;"><img src="pictures/meal.jpg" alt=""style="border-radius:10px;"></span>
+            <span style="--i:3;"><img src="pictures/fruits.jpg" alt=""style="border-radius:10px;"></span>
+            <span style="--i:4;"><img src="images/vedge3.jpg" alt=""style="border-radius:10px;"></span>
+            <span style="--i:5;"><img src="images/vedge.jpg" alt=""style="border-radius:10px;"></span>
+            <span style="--i:6;"><img src="pictures/meal.jpg" alt=""style="border-radius:10px;"></span>
+            </div>
+    </div>
+</div></center>
+<hr style="margin-top:150px; color:silver;">
+<div class="pfooter">
+        <h2>by cliftonmlele@gmail.com 2023_09_26</h2>
+    </div>
+</body>
+</html>
+
+        
