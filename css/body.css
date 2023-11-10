@@ -114,7 +114,7 @@ body{
 }
 .btn-box a:nth-child(2){
 background: transparent;
-color:black;
+color:gold;
 }
 .btn-box a::before{
 content: '';
