@@ -131,7 +131,7 @@ transition: .5s;
 }
 .btn-box a:hover::before{
     width:100%;
-	color:black;
+    color:#000;
 
 }
 .home-sci {
