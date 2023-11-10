@@ -129,6 +129,7 @@ img:hover{
 .text1{
     text-align: justify;
     font-family:Verdana;
+	margin-bottom:5px;
 }
 /*--------------animations----------*/
 @keyframes mess {
